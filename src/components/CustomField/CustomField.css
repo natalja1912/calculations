@@ -1,0 +1,11 @@
+.task-input__error{
+    color: #ffffff;
+}
+
+.task-input{
+    width: 70px;
+    padding: 0;
+    padding: 0 8px;
+    border: none;
+    border-radius: 4px;
+}

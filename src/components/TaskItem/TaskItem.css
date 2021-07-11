@@ -1,0 +1,25 @@
+.task{
+    display: flex;
+    margin: 10px 0;
+}
+
+.task__text-group{
+    width: 80px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.task__text{
+    margin: 0;
+    padding: 0;
+    margin: 0 2px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.task__input{
+    width: 40px;
+    padding: 0;
+    padding: 4px;
+    overflow: hidden;
+}

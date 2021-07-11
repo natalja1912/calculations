@@ -1,0 +1,20 @@
+.calculations{
+    padding: 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculations__heading{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.form__error{
+    color: #d3c46e;
+    font-weight: 500;
+    font-size: 22px;
+}
