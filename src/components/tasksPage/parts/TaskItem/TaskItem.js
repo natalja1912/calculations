@@ -1,7 +1,7 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
-import { CustomField } from '../'
-import validate from '../../utils/numbersValidation'
+import CustomField from '../CustomField/CustomField'
+import validate from '../../../../utils/numbersValidation'
 import './TaskItem.css'
 
 let TaskItem = ({ task, index, handleSubmit }) => {

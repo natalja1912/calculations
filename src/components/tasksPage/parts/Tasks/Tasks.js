@@ -1,4 +1,4 @@
-import { TaskItem } from '..'
+import TaskItem from '../TaskItem/TaskItem'
 import './Tasks.css'
 
 const Tasks = ({tasks}) => {

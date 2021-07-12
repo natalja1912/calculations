@@ -1,10 +1,10 @@
-import { Tasks } from '..'
+import Tasks from './parts/Tasks/Tasks'
 import { getFormValues } from 'redux-form'
 import { connect } from 'react-redux'
 import { useHistory } from 'react-router-dom';
 import getFinalResult from '../../utils/getFinalResult';
 import { FinalResult } from '../../redux/actions/FinalResult';
-import './TasksMain.css'
+import './TasksPage.css'
 
 let TasksMain = ({ state, tasks, addResult }) => {
   let history = useHistory()

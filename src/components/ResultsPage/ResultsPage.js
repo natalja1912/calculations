@@ -1,13 +1,11 @@
 import { connect } from 'react-redux'
-import { getFormValues } from 'redux-form'
 import './ResultsPage.css'
 
 const ResultsPage = ({ result, userName }) => {
-  const values = getFormValues('registerForm')(state)
 
   return (
     <div className="results">
-      <p>{`${values} - молодец!`}</p>
+      <p>{`${userName} - молодец!`}</p>
       <p>{`Правильных ответов: ${result} `}</p>
     </div>
   )
@@ -19,5 +17,6 @@ function mapStateToProps(state) {
     userName: state.userName
   }
 }
+
 
 export default connect(mapStateToProps, null)(ResultsPage);
