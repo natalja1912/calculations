@@ -1,0 +1,23 @@
+.result{
+    display: flex;
+    margin: 10px 0;
+}
+
+
+.result__text-group{
+    width: 120px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.result__text{
+    color: rgb(106, 192, 106);
+    margin: 0;
+    padding: 0;
+    margin: 0 2px;
+    font-size: 18px;
+}
+
+.result__text_red{
+    color: rgb(172, 51, 51);
+}

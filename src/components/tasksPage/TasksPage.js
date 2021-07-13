@@ -2,7 +2,7 @@ import Tasks from './parts/Tasks/Tasks'
 import { getFormValues } from 'redux-form'
 import { connect } from 'react-redux'
 import { useHistory } from 'react-router-dom';
-import getFinalResult from '../../utils/getFinalResult';
+import { getFinalResult, getResultsArray } from '../../utils/getFinalResult';
 import { FinalResult } from '../../redux/actions/FinalResult';
 import './TasksPage.css'
 
@@ -17,8 +17,8 @@ let TasksMain = ({ state, tasks, addResult }) => {
 
   function handleSubmit() {
     history.push("/results");
-    const rightAnswersNumber = getFinalResult(tasks, values);
-    addResult(rightAnswersNumber);
+    const resultArray = getResultsArray(tasks, values);
+    addResult(resultArray);
   }
 
   return (
