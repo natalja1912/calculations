@@ -1,28 +1,15 @@
 # Название проекта
-**Сервис News-reader**
-Интерактивное приложение News-reader с регистрацией пользователей, где пользователи могут искать статьи по ключевым словам и сохранять выбранные статьи для дальнейшей работы.
+Программа, которая генерирует случайным образом 10 математических примеров, с целыми числами до 100 (сложение, вычитание). 
+При нажатии на кнопку «Готово» - подсвечиваются правильные и неправильные ответы, производится статистика правильных и неправильных ответов и поздравляется пользователь.
 
 ## Технологии
  * React
  * React hooks
- * Node JS
- * CSS Grid Layout
- * CSS Flex Layout
- * Адаптивная верстка
+ * React Redux
+ * Redux Form
 
-## Ссылка на сайт github pages(Фронтенд)
-https://github.com/natalja1912/news-explorer-frontend
+## Ссылка на сайт github pages
+https://natalja1912.github.io/calculations/
 
-## Ссылка на сайт github pages (Бекенд)
-https://github.com/natalja1912/news-explorer-api
-
-## Домен
-https://news-reader.students.nomoredomains.rocks
-
-## Доменное имя сервера
-https://api.news-reader.students.nomoredomains.rocks
-
-## IP сервера
-178.154.229.170
 
 
